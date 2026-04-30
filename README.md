@@ -1,216 +1,246 @@
+<div align="center">
+
 # 📊 Power BI Dashboard Portfolio
 
-Welcome to my Power BI visualization portfolio! This repository showcases interactive dashboards and data visualizations across various business domains.
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-FF6C37?style=for-the-badge&logo=powerbi&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
+[![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
+[![Profile Views](https://komarev.com/ghpvc/?username=FarisDataAnalysts&color=F2C811&style=flat-square&label=Profile+Views)](https://github.com/FarisDataAnalysts)
 
-## 🎯 About
+> *A collection of interactive, production-ready Power BI dashboards spanning Sales, HR, Sports, Automotive, Fashion & Music Analytics.*
 
-This collection demonstrates my expertise in:
-- Interactive dashboard design
-- Data visualization best practices
-- Business intelligence reporting
-- KPI tracking and metrics
-- Storytelling with data
+**7 Dashboards · 6 Domains · 1 Goal — Turning Data into Decisions**
+
+</div>
+
+---
+
+## 📌 Table of Contents
+
+- [About This Repository](#-about-this-repository)
+- [Dashboard Projects](#-dashboard-projects)
+  - [Amazon Sales Dashboard](#1️⃣-amazon-sales-dashboard)
+  - [HR Analytics Dashboard](#2️⃣-hr-analytics-dashboard)
+  - [PSL 2016–2025 Dashboard](#3️⃣-psl-20162025-dashboard)
+  - [General Sales Dashboard](#4️⃣-general-sales-dashboard)
+  - [Zara Sales Dashboard](#5️⃣-zara-sales-dashboard)
+  - [Car Sales Dashboard](#6️⃣-car-sales-dashboard)
+  - [Spotify Music Dashboard](#7️⃣-spotify-music-dashboard)
+- [Tech Stack](#️-tech-stack)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Design Philosophy](#-design-philosophy)
+- [Connect With Me](#-connect-with-me)
+
+---
+
+## 🎯 About This Repository
+
+This repository is a portfolio of **interactive Power BI dashboards** built across real-world business domains. Each dashboard is designed with a focus on clarity, interactivity, and actionable insight — translating raw datasets into executive-ready visual stories.
+
+**What you'll find here:**
+- `.pbix` screenshots and PDF exports of fully interactive dashboards
+- Dashboards built with **DAX measures**, **Power Query transformations**, and **data modelling**
+- Coverage across e-commerce, HR, sports, automotive, fashion, and entertainment analytics
+
+---
 
 ## 📁 Dashboard Projects
 
+---
+
 ### 1️⃣ Amazon Sales Dashboard
-![Amazon Sales Dashboard](Amazon%20Sales%20Dashboard.PNG)
 
-**Objective:** Comprehensive sales performance analysis for e-commerce operations
+![Amazon Sales Dashboard](https://github.com/FarisDataAnalysts/Power-BI_Projects/raw/main/Amazon%20Sales%20Dashboard.PNG)
 
-**Key Metrics:**
-- Total revenue and profit margins
-- Sales trends over time
-- Product category performance
-- Regional sales distribution
-- Customer segmentation
+**Objective:** Comprehensive e-commerce sales performance analysis to identify revenue drivers, regional strengths, and product opportunities.
 
-**Features:**
-- Interactive filters by date, region, and category
-- Year-over-year comparison
-- Top-selling products analysis
-- Revenue forecasting
+| Metric Category | Details |
+|----------------|---------|
+| 💰 Revenue | Total revenue, profit margins, and order values |
+| 📦 Products | Category-level sales performance and top sellers |
+| 🌍 Geography | Regional sales distribution and territory breakdown |
+| 📅 Time | Monthly/yearly trends and year-over-year comparison |
+| 👥 Customers | Segmentation and buying behaviour |
+
+**Key Features:** Interactive date slicers · Category drill-downs · YoY comparisons · Revenue forecasting · Top-N product rankings
 
 ---
 
 ### 2️⃣ HR Analytics Dashboard
-![HR Analytics Dashboard](HR%20Analytics%20Dashboard.PNG)
 
-**Objective:** Employee performance and workforce analytics for HR decision-making
+![HR Analytics Dashboard](https://github.com/FarisDataAnalysts/Power-BI_Projects/raw/main/HR%20Analytics%20Dashboard.PNG)
 
-**Key Metrics:**
-- Employee headcount and demographics
-- Attrition rate analysis
-- Department-wise performance
-- Salary distribution
-- Recruitment metrics
+**Objective:** Workforce intelligence dashboard to support HR decision-making on attrition, headcount, performance, and diversity.
 
-**Features:**
-- Employee satisfaction scores
-- Retention insights
-- Performance ratings visualization
-- Diversity metrics
+| Metric Category | Details |
+|----------------|---------|
+| 👥 Headcount | Department-wise employee count and demographics |
+| 📉 Attrition | Attrition rate, risk segments, and resignation trends |
+| 💼 Performance | Employee ratings and department KPIs |
+| 💵 Compensation | Salary distribution and pay band analysis |
+| 🌈 Diversity | Gender, age group, and tenure distribution |
+
+**Key Features:** Attrition risk filters · Department comparison · Satisfaction score tracking · Retention insight panels
 
 ---
 
-### 3️⃣ PSL 2016-2025 Dashboard
-![PSL Dashboard](PSL%202016-2025%20Dashboard.PNG)
+### 3️⃣ PSL 2016–2025 Dashboard
 
-**Objective:** Pakistan Super League cricket statistics and performance analysis
+![PSL Dashboard](https://github.com/FarisDataAnalysts/Power-BI_Projects/raw/main/PSL%202016-2025%20Dashboard.PNG)
 
-**Key Metrics:**
-- Team performance over seasons
-- Player statistics and rankings
-- Match outcomes analysis
-- Venue performance
-- Historical trends
+**Objective:** A decade of Pakistan Super League cricket — team standings, player performance, and match outcome analytics across 10 seasons.
 
-**Features:**
-- Season-wise filtering
-- Player comparison tools
-- Team vs team analysis
-- Win/loss patterns
+| Metric Category | Details |
+|----------------|---------|
+| 🏆 Teams | Season-by-season team standings and win rates |
+| 🏏 Players | Batting averages, wickets, strike rates, and rankings |
+| 🏟️ Venues | Ground-wise performance and home vs. away stats |
+| 📅 Seasons | Historical trend analysis from 2016 to 2025 |
+| 🎯 Match Results | Win/loss patterns, net run rates, and super overs |
+
+**Key Features:** Season slicer · Player vs. player comparison · Team head-to-head · Historical tournament progression
 
 ---
 
-### 4️⃣ Sales Dashboard (General)
-![Sales Dashboard](Sales%20Dashboard.PNG)
+### 4️⃣ General Sales Dashboard
 
-**Objective:** Multi-dimensional sales analysis for business growth insights
+![Sales Dashboard](https://github.com/FarisDataAnalysts/Power-BI_Projects/raw/main/Sales%20Dashboard.PNG)
 
-**Key Metrics:**
-- Revenue and profit tracking
-- Sales by product and region
-- Customer acquisition metrics
-- Sales funnel analysis
-- Growth rate calculations
+**Objective:** A versatile, multi-dimensional sales analytics dashboard for tracking revenue, targets, and growth across products, regions, and time periods.
 
-**Features:**
-- Dynamic date range selection
-- Drill-down capabilities
-- Comparative analysis
-- Target vs actual performance
+| Metric Category | Details |
+|----------------|---------|
+| 📈 Revenue | Total sales, target vs. actual, and growth rate |
+| 🛒 Products | Product-level contribution and performance ranking |
+| 🌍 Regions | Geographic breakdown and territory performance |
+| 🎯 Targets | KPI cards for quota attainment and gap analysis |
+| 📊 Funnel | Lead-to-close pipeline and conversion metrics |
+
+**Key Features:** Dynamic date range selector · Drill-through by region/product · Target vs. actual KPI cards · Conditional formatting alerts
 
 ---
 
 ### 5️⃣ Zara Sales Dashboard
-![Zara Sales Dashboard](Zara%20Sales%20Dashboard.PNG)
 
-**Objective:** Fashion retail analytics for Zara sales performance
+![Zara Sales Dashboard](https://github.com/FarisDataAnalysts/Power-BI_Projects/raw/main/Zara%20Sales%20Dashboard.PNG)
 
-**Key Metrics:**
-- Product category sales
-- Seasonal trends
-- Store performance
-- Inventory turnover
-- Customer preferences
+**Objective:** Fashion retail analytics for Zara — tracking product category performance, seasonal demand, and store-level revenue.
 
-**Features:**
-- Category-wise breakdown
-- Geographic sales mapping
-- Trend analysis
-- Best-seller identification
+| Metric Category | Details |
+|----------------|---------|
+| 👗 Categories | Sales breakdown by clothing category and collection |
+| 📅 Seasonality | Seasonal trends and peak demand periods |
+| 🏪 Stores | Store-level revenue comparison and ranking |
+| 🔄 Inventory | Turnover rates and stock performance signals |
+| 🌍 Geography | Regional sales mapping and market share |
+
+**Key Features:** Category slicer · Seasonal trend lines · Best-seller identification · Store performance ranking
 
 ---
 
-### 6️⃣ Car Sales Data Dashboard
-**File:** `Car Sales Data Dashboard.pdf`
+### 6️⃣ Car Sales Dashboard
 
-**Objective:** Automotive sales analysis and market trends
+> 📄 File: `Car Sales Data Dashboard.pdf`
 
-**Key Metrics:**
-- Vehicle sales by model and brand
-- Price analysis
-- Market share distribution
-- Sales trends over time
-- Customer demographics
+**Objective:** Automotive market intelligence dashboard covering vehicle sales by model, brand, and region with pricing and demographic insights.
 
-**Features:**
-- Brand comparison
-- Price range filtering
-- Regional performance
-- Year-over-year growth
+| Metric Category | Details |
+|----------------|---------|
+| 🚗 Models | Sales by vehicle model and brand |
+| 💲 Pricing | Average transaction price and price band distribution |
+| 🌍 Market | Regional market share and territory performance |
+| 📅 Trends | Monthly and yearly sales volume trends |
+| 👤 Customers | Buyer demographics and purchase behaviour |
+
+**Key Features:** Brand vs. brand comparison · Price range filters · YoY sales growth · Regional performance map
 
 ---
 
-### 7️⃣ Spotify Music Data Dashboard
-**File:** `spotify Musics Data Dashboard.pdf`
+### 7️⃣ Spotify Music Dashboard
 
-**Objective:** Music streaming analytics and listener behavior insights
+> 📄 File: `spotify Musics Data Dashboard.pdf`
 
-**Key Metrics:**
-- Top artists and tracks
-- Genre popularity
-- Listening patterns
-- User engagement metrics
-- Playlist performance
+**Objective:** Music streaming analytics exploring listener behaviour, artist performance, genre popularity, and track trends on Spotify.
 
-**Features:**
-- Time-based analysis
-- Genre filtering
-- Artist comparison
-- Trend identification
+| Metric Category | Details |
+|----------------|---------|
+| 🎵 Tracks | Top tracks by streams, duration, and popularity score |
+| 🎤 Artists | Most-streamed artists and follower-to-stream ratio |
+| 🎸 Genres | Genre share and popularity over time |
+| 📅 Trends | Monthly release patterns and streaming seasonality |
+| 📊 Engagement | Danceability, energy, valence, and tempo analytics |
+
+**Key Features:** Genre filter · Artist deep-dive · Time-based stream trends · Audio feature comparisons
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Tech Stack
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+<div align="center">
+
+![Power BI](https://img.shields.io/badge/Power%20BI%20Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-FF6C37?style=for-the-badge&logo=powerbi&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query%20(M)-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-- **Visualization Tool:** Microsoft Power BI Desktop
-- **Data Sources:** Excel, CSV, SQL databases
-- **Languages:** DAX (Data Analysis Expressions), M (Power Query)
-- **Concepts:** Data modeling, ETL, Interactive visualizations
+</div>
 
-## 📈 Key Skills Demonstrated
+| Layer | Tools & Technologies |
+|-------|---------------------|
+| **Visualisation** | Microsoft Power BI Desktop |
+| **Data Transformation** | Power Query (M Language) |
+| **Calculations** | DAX — measures, calculated columns, KPIs |
+| **Data Sources** | Excel, CSV, SQL databases |
+| **Export Formats** | `.pbix`, `.pdf`, `.PNG` |
 
-- ✅ Interactive Dashboard Design
-- ✅ Data Modeling & Relationships
-- ✅ DAX Calculations & Measures
-- ✅ Power Query Transformations
-- ✅ Visual Best Practices
-- ✅ KPI Development
-- ✅ Storytelling with Data
-- ✅ Business Intelligence Reporting
+---
 
-## 🎨 Design Principles
+## 📈 Skills Demonstrated
 
-All dashboards follow these principles:
-- **Clarity:** Easy to understand at a glance
-- **Interactivity:** User-friendly filters and drill-downs
-- **Consistency:** Uniform color schemes and layouts
-- **Actionability:** Insights that drive decisions
-- **Performance:** Optimized for fast loading
+<div align="center">
 
-## 📊 Dashboard Features
+| BI & Visualisation | Data Engineering | Analysis |
+|:-----------------:|:----------------:|:--------:|
+| ✅ Interactive Dashboard Design | ✅ Power Query ETL | ✅ KPI Development |
+| ✅ Visual Best Practices | ✅ Data Modelling & Relationships | ✅ Statistical Trend Analysis |
+| ✅ Conditional Formatting | ✅ Star Schema Design | ✅ Business Intelligence Reporting |
+| ✅ Custom Tooltips & Bookmarks | ✅ DAX Calculated Measures | ✅ Storytelling with Data |
+| ✅ Drill-Through & Drill-Down | ✅ Many-to-many Relationships | ✅ Target vs Actual Tracking |
+| ✅ Mobile-Responsive Layouts | ✅ Incremental Data Refresh | ✅ Comparative Analysis |
 
-- 📌 Interactive slicers and filters
-- 📌 Drill-through capabilities
-- 📌 Custom tooltips
-- 📌 Conditional formatting
-- 📌 Dynamic titles and measures
-- 📌 Mobile-responsive layouts
+</div>
 
-## 🎓 Learning Outcomes
+---
 
-Through these projects, I've mastered:
-- Transforming raw data into actionable insights
-- Creating user-centric dashboard experiences
-- Implementing complex DAX calculations
-- Optimizing dashboard performance
-- Presenting data stories effectively
+## 🎨 Design Philosophy
+
+Every dashboard in this portfolio is built around five core principles:
+
+| Principle | Approach |
+|-----------|----------|
+| **Clarity** | Clean layouts — the insight is visible in 5 seconds or less |
+| **Interactivity** | Slicers, drill-throughs, and filters that empower the user |
+| **Consistency** | Unified colour palettes, typography, and component spacing |
+| **Actionability** | Every visual answers a business question, not just shows data |
+| **Performance** | Optimised DAX and query folding for fast dashboard load times |
+
+---
 
 ## 📫 Connect With Me
 
-- **GitHub:** [@FarisDataAnalysts](https://github.com/FarisDataAnalysts)
-- **Email:** farisbilal96@gmail.com
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Gmail-farisbilal96@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farisbilal96@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-FarisDataAnalysts-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FarisDataAnalysts)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20All%20Projects-2196F3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FarisDataAnalysts)
 
 ---
 
-⭐ **If you find these dashboards inspiring, please star this repository!**
+⭐ **If these dashboards inspire you, give this repo a star — it helps others find this work!**
 
----
+*"Turning Data into Decisions, One Dashboard at a Time"*
 
-*Last Updated: February 2026*
+*Last Updated: April 2026*
+
+</div>
